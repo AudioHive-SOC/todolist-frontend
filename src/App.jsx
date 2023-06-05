@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const ID = "647d95af94e51eede64604b7";
-const baseUrl = "https://localhost:5000/api/";
+const baseUrl = "http://localhost:5000/api/";
 
 export default function App() {
 	const [text, setText] = useState("");
